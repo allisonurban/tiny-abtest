@@ -1,8 +1,5 @@
 <?php
 
-ob_start(); # http://stackoverflow.com/questions/9707693/warning-cannot-modify-header-information-headers-already-sent-by-error
-if (!isset($_SESSION)) session_start();
-
 class ABExperiment {
 
 	const TAG = 'ABTEST';

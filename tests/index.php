@@ -1,5 +1,8 @@
 <?php 
 
+ob_start(); # http://stackoverflow.com/questions/9707693/warning-cannot-modify-header-information-headers-already-sent-by-error
+if (!isset($_SESSION)) session_start();
+
 include_once '../ab.php'; 
 
 // $experiment = new ABExperiment('Chat test', array('Show chat', 'Hide chat'));
