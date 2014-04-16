@@ -26,7 +26,6 @@ class ABExperiment {
 	 */
 	public function __construct($experiment, $variations, $user=null) {
 			$this->_config = parse_ini_file(__DIR__ . "/config.ini");
-			print_r($this->_config);
 			$this->_identified_visitor = $user;
 			$this->setExperimentParams($experiment);
 			$this->setVariationParams($variations);
