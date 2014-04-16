@@ -1,4 +1,4 @@
-Tiny AB Test
+Tiny A/B Test
 ===========
-A simple framework for running A/B tests.
+A simple framework for A/B testing.
 
